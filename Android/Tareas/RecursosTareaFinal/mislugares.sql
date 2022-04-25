@@ -18,19 +18,19 @@ comentario TEXT,
 fecha BIGINT,
 valoracion FLOAT);
 
-INSERT INTO lugares VALUES (1, 'Escuela Politécnica Superior de Gandía', 'C/ Paranimf, 1 46730 Gandia (SPAIN)', -0.166093, 38.995656, 8 , '', 962849300, 'http://www.epsg.upv.es', 'Uno de los mejores lugares para formarse.', '05-11-2022' , 3.0);
+INSERT INTO lugares VALUES (1, 'Escuela Politécnica Superior de Gandía', 'C/ Paranimf, 1 46730 Gandia (SPAIN)', -0.166093, 38.995656, 8 , '', 962849300, 'http://www.epsg.upv.es', 'Uno de los mejores lugares para formarse.', UNIX_TIMESTAMP('2022-05-11 10:30:19') , 3.0);
 
 
-INSERT INTO lugares VALUES (2, 'Al de siempre', 'P.Industrial Junto Molí Nou - 46722, Benifla (Valencia)', -0.190642, 38.925857, 3 , '', 636472405, '', 'No te pierdas el arroz en calabaza.', '05-11-2022' , 3.0);
+INSERT INTO lugares VALUES (2, 'Al de siempre', 'P.Industrial Junto Molí Nou - 46722, Benifla (Valencia)', -0.190642, 38.925857, 3 , '', 636472405, '', 'No te pierdas el arroz en calabaza.', UNIX_TIMESTAMP('2022-05-11 10:30:19') , 3.0);
      
 
-INSERT INTO lugares VALUES (3, 'androidcurso.com', 'ciberespacio', 0.0, 0.0, 8 , '', 962849300 , 'http://androidcurso.com','Amplia tus conocimientos sobre Android.', '05-11-2022' , 5.0);
+INSERT INTO lugares VALUES (3, 'androidcurso.com', 'ciberespacio', 0.0, 0.0, 8 , '', 962849300 , 'http://androidcurso.com','Amplia tus conocimientos sobre Android.', UNIX_TIMESTAMP('2022-05-11 10:30:19') , 5.0);
       
 
-INSERT INTO lugares VALUES (4,'Barranco del Infierno', 'Vía Verde del río Serpis. Villalonga (Valencia)', -0.295058, 38.867180, 10 , '', 0, 'http://sosegaos.blogspot.com.es/2009/02/lorcha-villalonga-via-verde-del-rio.html', 'Espectacular ruta para bici o andar','05-11-2022', 4.0);
+INSERT INTO lugares VALUES (4,'Barranco del Infierno', 'Vía Verde del río Serpis. Villalonga (Valencia)', -0.295058, 38.867180, 10 , '', 0, 'http://sosegaos.blogspot.com.es/2009/02/lorcha-villalonga-via-verde-del-rio.html', 'Espectacular ruta para bici o andar',UNIX_TIMESTAMP('2022-05-11 10:30:19'), 4.0);
 INSERT INTO lugares VALUES (5, 'La Vital', 'Avda. La Vital,0 46701 Gandia (Valencia)',-0.1720092,38.9705949,
                 ' 7 +', '', 962881070,  'http://www.lavital.es', 'El típico centro comercial',
-		'05-11-2022', 2.0);
+		UNIX_TIMESTAMP('2022-05-11 10:30:19'), 2.0);
 
 
 
